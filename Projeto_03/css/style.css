@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+	
+}
+html,body{
+	height: 100%;
+	
+}
+
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+.sessao1{
+	width: 100%;
+	padding: 0px 2%;
+	background-color: #472562;
+}
+
+.texto-sessao1{
+	float: left;
+	font-weight: lighter;
+	color: white;
+	width: 50%;
+}
+
+.texto-sessao1 h2{
+	font-weight: 300;
+}
+
+.texto-sessao1 p {
+	margin-top: 30px;
+	font-size: 13px;
+	/*font-weight: 300;*/
+}
+
+.texto-sessao1 ul{
+	font-size: 13px;
+	list-style-position: inside;
+}
+
+.texto-sessao1 ul li{
+	float: left;
+	width: 100%;
+	
+}
+
+.device-sessao1{
+	float: left;
+	width: 50%;
+	height: 300px;
+	background-image: url("../imagens/device.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	
+}
+
+section.sessao1 .container{
+	max-width: 1000px;
+}
+
+.btn1-texto{
+	
+	background-color:#ff6600;
+	width: 165px;
+	height: 44px;
+	color: white;
+	cursor: pointer;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 44px;
+	border-radius: 40px;
+	
+}
+
+
+/*section .sessao1{
+	width: 100%;
+	padding: 20px 2%;
+	background-color: #472562;
+}*/
+
+header{
+	width: 100%;
+	height: 90vh; /*Funciona Parecido com a porcentagem*/
+	padding: 40px 2%;
+	/*max-height: 700px;*/
+	background-size: cover; /*Vai sempre cobrir*/
+	background-position: center;/*Vai sempre centralizar*/
+	background-image: url("../imagens/capa.png");
+}
+
+header .logo{
+	float: left;
+	width: 160px;
+	height: 40px;
+	background-color: #ccc;
+	
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	list-style-type: none;
+}
+
+header nav li{
+	
+	padding: 0 20px;
+	float: left;
+	margin: 0 20px;
+	
+	/*display: inline-block;*/
+}
+
+header li a{
+	text-decoration: none;
+	color: white;
+}
+
+.chamada1{
+	max-width: 600px;
+	float: right;
+	margin:140px 110px;
+}
+
+.chamada1 h2{
+	font-size: 40px;
+	color: white;
+	font-weight: normal;
+}
+
+.chamada1 p{
+	font-size: 15px;
+	color: white;
+	margin-top: 10px;
+	
+}
+
+
+
+
+
+/*
+header > .container > nav > ul > li > a{
+	color:white;
+}*/
